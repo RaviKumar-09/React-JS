@@ -3,8 +3,8 @@ function Card(){
     return(
         <div className="card">
             <img className="card-image"src={profilePic} alt="profile picture" />
-            <h2>Ravi Kumar</h2>
-            <p>I am a Developer and play vedio games.</p>
+            <h2 className='card-tittle'>Ravi Kumar</h2>
+            <p className='card-text'>I am a Web Developer and play vedio games.</p>
         </div>
 
     );
