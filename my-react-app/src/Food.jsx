@@ -15,7 +15,9 @@ function Food(){
                 <li>Fish</li>
                 <li>Egg</li>
             </ul>
+            <hr></hr>
         </div>
+        
     );
 
 }
