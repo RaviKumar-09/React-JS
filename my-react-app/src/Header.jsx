@@ -3,8 +3,8 @@ function Header(){
     return(
         <header>
             <h1>My Website</h1>
-            <nav className="header">
-                <ul>
+            <nav className="head">
+                <ul >
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
