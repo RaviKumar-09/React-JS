@@ -14,3 +14,12 @@
   display: inline;
 
 }
+.card card-image{
+  width: 20px;
+  height: 10px;
+
+}
+
+.card-image{
+  height: 120px;
+}
