@@ -1,5 +1,8 @@
 function List(){
-    const fruits = ["apple", "Banana", "orange", "pineapple"];
+    const fruits = [{name:"apple" , calories: 95}, 
+                    {name:"Banana", calories: 45}, 
+                    {name:"orange", calories:105}, 
+                    {name:"pineapple", calories:134}];
 
     //fruits.sort()
 
