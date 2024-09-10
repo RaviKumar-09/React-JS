@@ -6,7 +6,7 @@ function List(){
 
     //fruits.sort()
 
-    const listItems = fruits.map(fruit => <li>{fruit}</li>);
+    const listItems = fruits.map(fruit => <li key={fruit.name}>{fruit.name}</li>);
     
     return(<ol>{listItems}</ol>);
 }
