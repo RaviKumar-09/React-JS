@@ -7,7 +7,9 @@ function List(){
     //fruits.sort((a,b)=> a.name.localeCompare(b.name))//ALAPABETICAL
     //fruits.sort((a,b)=> b.name.localeCompare(a.name))// REVSER ALAPABETICAL
 
-    fruits.sort((a,b) => a.calories-b.calories)
+    fruits.sort((a,b) => a.calories-b.calories)// NUMERIC
+    fruits.sort((a,b) => b.calories-a.calories)// REVERSE NUMERIC
+
 
 
 
