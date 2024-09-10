@@ -4,8 +4,10 @@ function List(){
                     {id:3,name:"orange", calories:105}, 
                     {id:4,name:"pineapple", calories:134}];
 
-    fruits.sort((a,b)=> a.name.localeCompare(b.name))//ALAPABETICAL
-    fruits.sort((a,b)=> b.name.localeCompare(a.name))// REVSER ALAPABETICAL
+    //fruits.sort((a,b)=> a.name.localeCompare(b.name))//ALAPABETICAL
+    //fruits.sort((a,b)=> b.name.localeCompare(a.name))// REVSER ALAPABETICAL
+
+    fruits.sort((a,b) => a.calories-b.calories)
 
 
 
