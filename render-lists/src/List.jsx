@@ -4,7 +4,10 @@ function List(){
                     {id:3,name:"orange", calories:105}, 
                     {id:4,name:"pineapple", calories:134}];
 
-    //fruits.sort()
+    fruits.sort((a,b)=> a.name.localeCompare(b.name))//ALAPABETICAL
+    fruits.sort((a,b)=> a.name.localeCompare(b.name))// REVSER ALAPABETICAL
+
+
 
     const listItems = fruits.map(fruit => <li key={fruit.id}>
                                             {fruit.name}: &nbsp;
