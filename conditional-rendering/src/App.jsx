@@ -1,8 +1,8 @@
-import UserGreeting from "./UserGreenting"
+import UserGreenting from "./UserGreenting"
 
 function App() {
   <>
-    <UserGreeting isLoggedIn={true} username = "Ravi Kumar"/>
+  <UserGreenting isLoggedIn={true} username="Ravi Kumar"/>
   </>
  
 }
