@@ -5,7 +5,7 @@ function MyComponent(){
     const [name, setName] = useState();
 
     const updateName = () => {
-        name = "Ravi";
+        setName("Ravi");
     }
 
         return(
