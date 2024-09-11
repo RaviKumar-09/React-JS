@@ -14,7 +14,7 @@ function UseEffect(){
 
     }
     const subCount = () =>{
-        setCount(c => c + 1);
+        setCount(c => c - 1);
 
 
     }
