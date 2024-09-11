@@ -6,7 +6,7 @@ function UseEffect(){
     useEffect(() => {
         document.title = `Count: ${count}`;
 
-    },[]);
+    },[count]);
 
     const addCount = () =>{
         setCount(c => c + 1);
