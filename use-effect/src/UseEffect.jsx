@@ -13,10 +13,17 @@ function UseEffect(){
 
 
     }
+    const subCount = () =>{
+        setCount(c => c + 1);
+
+
+    }
     return(
         <>
         <p>Cont: {count}</p>
         <button onClick={addCount}>Add</button>
+        <button onClick={subCount}>Sub</button>
+
         </>
     );
 
