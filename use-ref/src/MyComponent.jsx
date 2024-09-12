@@ -16,11 +16,12 @@ function MyComponent(){
 
     }
 
-    return (
+    return (<>
     
         <button onClick={handleClick}>Click me!</button>
+        <input />
 
-    );
+        </>);
 
 }
 export default MyComponent
