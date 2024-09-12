@@ -1,4 +1,4 @@
-function ComponentA(){
+function ComponentD(){
 
     return(
         <div className="box">
@@ -7,4 +7,4 @@ function ComponentA(){
     );
 
 }
-export default ComponentA
+export default ComponentD
