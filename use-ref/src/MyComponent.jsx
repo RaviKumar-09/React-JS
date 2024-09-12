@@ -2,8 +2,8 @@ import {  useEffect, useRef } from "react"
 
 function MyComponent(){
 
-    const ref = useRef(0);
-    console.log(ref)
+    const imputref = useRef(null);
+    /*console.log(ref)*/
 
     useEffect( function() {
         console.log("Conponent Render")
@@ -11,8 +11,8 @@ function MyComponent(){
     })
 
     function handleClick() {
-        ref.current++;
-        console.log(ref.current)
+        /*ref.current++;*/
+        /*console.log(ref.current)*/
 
     }
 
@@ -22,7 +22,7 @@ function MyComponent(){
         <br />
         <br />
         
-        <input />
+        <input ref={imputref}/>
 
         </>);
 
