@@ -19,6 +19,9 @@ function MyComponent(){
     return (<>
     
         <button onClick={handleClick}>Click me!</button>
+        <br />
+        <br />
+        
         <input />
 
         </>);
