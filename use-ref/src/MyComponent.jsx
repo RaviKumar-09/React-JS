@@ -11,6 +11,7 @@ function MyComponent(){
 
     function handleClick() {
         ref.current++;
+        console.log(ref.current)
 
     }
 
