@@ -20,10 +20,19 @@ function MyComponent(){
 
     return (<>
     
-        <button onClick={handleClick}>Click me!</button>
+        <button onClick={handleClick}>Click me 1</button>
         <br />
         <br />
         <input ref={inputref}/>
+        <button onClick={handleClick}>Click me 2</button>
+        <br />
+        <br />
+        <input ref={inputref}/>
+        <button onClick={handleClick}>Click me 3</button>
+        <br />
+        <br />
+        <input ref={inputref}/>
+
 
         </>);
 
