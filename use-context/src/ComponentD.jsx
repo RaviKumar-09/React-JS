@@ -2,7 +2,7 @@ function ComponentD(){
 
     return(
         <div className="box">
-            <h1>ComponentA</h1>
+            <h1>ComponentD</h1>
         </div>
     );
 
