@@ -19,17 +19,24 @@ function MyComponent(){
         /*console.log(ref.current)*/
         inputref1.current.focus();
         inputref1.current.style.backgroundColor = "orange"
+        inputref2.current.style.backgroundColor = ""
+        inputref3.current.style.backgroundColor = ""
 
     };
 
     function handleClick2() {
         inputref2.current.focus();
+        inputref1.current.style.backgroundColor = ""
         inputref2.current.style.backgroundColor = "white"
+        inputref3.current.style.backgroundColor = ""
+
 
     };
 
     function handleClick3() {
         inputref3.current.focus();
+        inputref1.current.style.backgroundColor = ""
+        inputref2.current.style.backgroundColor = ""
         inputref3.current.style.backgroundColor = "green"
 
     };
