@@ -3,6 +3,7 @@ import {  useEffect, useRef } from "react"
 function MyComponent(){
 
     const ref = useRef(0);
+    console.log(ref)
 
     useEffect( function() {
         console.log("Conponent Render")
